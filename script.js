@@ -266,7 +266,7 @@ function countdown(){
     dom_minutes.innerHTML = minutes
     dom_seconds.innerHTML = seconds
 
-    if(seconds === 59 && minutes === 52){
+    if(seconds === 0 && minutes === 0){
         console.log("Working")
         window.location.reload(true)
     }
@@ -284,7 +284,7 @@ function kick(){
     const minutes = Math.floor(total_seconds / 60) % 60
 
 
-    if(days === 14 && hours === 3 && minutes <= 52  ){
+    if(days === 0 && hours === 0 && minutes <= 52  ){
         canvas.style.display = "block"
         loop()
     }else{
