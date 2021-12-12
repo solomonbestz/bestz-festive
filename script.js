@@ -284,7 +284,7 @@ function kick(){
     const minutes = Math.floor(total_seconds / 60) % 60
 
 
-    if(days === 17 && hours === 2 && minutes <= 52){
+    if(days === 14 && hours === 3 && minutes <= 52  ){
         canvas.style.display = "block"
         loop()
     }else{
