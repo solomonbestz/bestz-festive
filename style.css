@@ -10,9 +10,10 @@ body{
     justify-content: center;
     overflow: hidden;
     display: flex;
+    background-color: black;
     flex-direction: column;
-    background: url('/image/christmas.jpg') no-repeat fixed center;
-    background-size: 100vw 100vh;
+    /* background: url('/image/christmas.jpg') no-repeat fixed center;
+    background-size: 100vw 100vh; */ 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1{
